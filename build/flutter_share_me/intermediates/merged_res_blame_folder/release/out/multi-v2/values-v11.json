@@ -1,0 +1,74 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "315"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "1081",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1341"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e8c34ca77821555804e43a10b52264a1\\transformed\\jetified-tweet-composer-3.1.1\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,565",
+                        "endLines": "9,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "560,1076"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "315"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "1081",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1341"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e8c34ca77821555804e43a10b52264a1\\transformed\\jetified-tweet-composer-3.1.1\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,565",
+                        "endLines": "9,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "560,1076"
+                    }
+                }
+            ]
+        }
+    ]
+}

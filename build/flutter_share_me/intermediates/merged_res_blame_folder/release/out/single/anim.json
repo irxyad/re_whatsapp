@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\tw__slide_out.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\anim\\tw__slide_out.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\tw__accelerate_cubic.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\anim\\tw__accelerate_cubic.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\anim\\abc_popup_exit.xml"
+    }
+]

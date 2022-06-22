@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Hungry Kid",
+        "picture": "assets/images/hungrykid.jpg",
+        "theirChat": "Mcd bruh? Kfc? cmon",
+        "time": "9:30",
+        "colorTime": "0xFF075E54",
+        "chatCount": "12",
+        "active": "0xFF25D366",
+        "Bactive": "0xFFFFFFFF",
+        "viewed" : "30 menit "
+    },
+    {
+        "name": "Ucu",
+        "picture": "assets/images/ucu.jpg",
+        "theirChat": "Nah",
+        "time": "6:30",
+        "colorTime": "0xFF075E54",
+        "chatCount": "1",
+        "active": "0xFF25D366",
+        "Bactive": "0xFFFFFFFF",
+        "viewed" : "45 menit "
+    },
+    {
+        "name": "Leora",
+        "picture": "assets/images/leora.png",
+        "theirChat": "Hey, this is awesome",
+        "time": "5:15 ",
+        "colorTime": "0xFF075E54",
+        "chatCount": "1",
+        "active": "0x0025D366",
+        "Bactive": "0x00FFFFFF",
+        "viewed" : "1 Jam "
+    },
+    {
+        "name": "Dr. Lina",
+        "picture": "assets/images/drLina.jpg",
+        "theirChat": "U have cancer",
+        "time": "Yesterday",
+        "colorTime": "0xFF075E54",
+        "chatCount": "1",
+        "active": "0x0025D366",
+        "Bactive": "0x00FFFFFF",
+        "viewed" : "1 Jam "
+    },
+    {
+        "name": "Silent Deadly",
+        "picture": "assets/images/silentDeadly.jpg",
+        "theirChat": "Hmmm",
+        "time": "Yesterday",
+        "colorTime": "0xFF075E54",
+        "chatCount": "1",
+        "active": "0x0025D366",
+        "Bactive": "0x00FFFFFF",
+        "viewed" : "1 Jam "
+    },
+    {
+        "name": "Buddy",
+        "picture": "assets/images/buddy.png",
+        "theirChat": "Let’s go",
+        "time": "Yesterday",
+        "colorTime": "0xFF075E54",
+        "chatCount": "1",
+        "active": "0xFF25D366",
+        "Bactive": "0xFFFFFFFF",
+        "viewed" : "2 Jam "
+    },
+    {
+        "name": "Lord Buffon",
+        "picture": "assets/images/lordBuffon.jpg",
+        "theirChat": "You Shut up!!",
+        "time": "Yesterday",
+        "colorTime": "0xFF075E54",
+        "chatCount": "4",
+        "active": "0xFF25D366",
+        "Bactive": "0xFFFFFFFF",
+        "viewed" : "2 jam "
+    },
+    {
+        "name": "Si Tolol",
+        "picture": "assets/images/anakTolol.png",
+        "theirChat": "Photo",
+        "time": "Yesterday",
+        "colorTime": "0xFF075E54",
+        "chatCount": "1",
+        "active": "0xFF25D366",
+        "Bactive": "0xFFFFFFFF",
+        "viewed" : "09:45 "
+    },
+    {
+        "name": "Anak Senja",
+        "picture": "assets/images/anakSenja.jpg",
+        "theirChat": "I will go like sunset on the beach",
+        "time": "Yesterday",
+        "colorTime": "0xFF075E54",
+        "chatCount": "2",
+        "active": "0x0025D366",
+        "Bactive": "0x00FFFFFF",
+        "viewed" : "08:25 "
+    }
+]

@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml:1:1-59
+INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml:1:1-59
+INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml:1:1-59
+	package
+		ADDED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml:1:11-47
+		INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml:1:1-59
+uses-sdk
+INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+		ADDED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+		ADDED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\Flutter\.pub-cache\hosted\pub.dartlang.org\whatsapp_share2-2.0.2\android\src\main\AndroidManifest.xml

@@ -1,0 +1,4 @@
+#Tue Jun 21 15:38:45 SGT 2022
+base.0=E\:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

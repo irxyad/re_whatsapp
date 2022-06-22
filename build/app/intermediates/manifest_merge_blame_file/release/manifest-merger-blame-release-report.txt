@@ -1,0 +1,174 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.re_whatsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:4:5-72
+11-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:4:22-69
+12    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+12-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:5:5-73
+12-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:5:22-70
+13
+14    <queries>
+14-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:7:5-13:11
+15
+16        <!-- If your app makes calls -->
+17        <intent>
+17-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:9:9-12:18
+18            <action android:name="android.intent.action.DIAL" />
+18-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:10:13-65
+18-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:10:21-62
+19
+20            <data android:scheme="tel" />
+20-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:11:13-42
+20-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:11:19-39
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->[:camera] E:\Coding\ReWhatsApp\re_whatsapp\build\camera\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-65
+24-->[:camera] E:\Coding\ReWhatsApp\re_whatsapp\build\camera\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-62
+25    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+25-->[:camera] E:\Coding\ReWhatsApp\re_whatsapp\build\camera\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-71
+25-->[:camera] E:\Coding\ReWhatsApp\re_whatsapp\build\camera\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-68
+26
+27    <meta-data
+27-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:43:9-45:33
+28        android:name="flutterEmbedding"
+28-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:44:13-44
+29        android:value="2" />
+29-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:45:13-30
+30
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\irxya\.gradle\caches\transforms-3\9c3e1c556f4536cd794cd7354f8dc080\transformed\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:24:5-79
+31-->[com.google.android.exoplayer:exoplayer-core:2.17.1] C:\Users\irxya\.gradle\caches\transforms-3\9c3e1c556f4536cd794cd7354f8dc080\transformed\jetified-exoplayer-core-2.17.1\AndroidManifest.xml:24:22-76
+32
+33    <application
+34        android:name="android.app.Application"
+34-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:17:9-42
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.8.0] C:\Users\irxya\.gradle\caches\transforms-3\d363e3b5616f580c766e3e2b3c05f27d\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+36        android:icon="@mipmap/ic_launcher"
+36-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:19:9-43
+37        android:label="re_whatsapp"
+37-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:16:9-36
+38        android:requestLegacyExternalStorage="true" >
+38-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:18:9-52
+39        <activity
+39-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:20:9-40:20
+40            android:name="com.example.re_whatsapp.MainActivity"
+40-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:21:13-41
+41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+41-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:25:13-163
+42            android:exported="true"
+42-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:22:13-36
+43            android:hardwareAccelerated="true"
+43-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:26:13-47
+44            android:launchMode="singleTop"
+44-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:23:13-43
+45            android:theme="@style/LaunchTheme"
+45-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:24:13-47
+46            android:windowSoftInputMode="adjustResize" >
+46-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:27:13-55
+47
+48            <!--
+49                 Specifies an Android theme to apply to this Activity as soon as
+50                 the Android process has started. This theme is visible to the user
+51                 while the Flutter UI initializes. After that, this theme continues
+52                 to determine the Window background behind the Flutter UI.
+53            -->
+54            <meta-data
+54-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:32:13-35:17
+55                android:name="io.flutter.embedding.android.NormalTheme"
+55-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:33:15-70
+56                android:resource="@style/NormalTheme" />
+56-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:34:15-52
+57
+58            <intent-filter>
+58-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:36:13-39:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:37:17-68
+59-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:37:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:38:17-76
+61-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:38:27-74
+62            </intent-filter>
+63        </activity>
+64        <!--
+65             Don't delete the meta-data below.
+66             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+67        -->
+68        <meta-data
+68-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:43:9-45:33
+69            android:name="flutterEmbedding"
+69-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:44:13-44
+70            android:value="2" />
+70-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:45:13-30
+71
+72        <provider
+73            android:name="androidx.core.content.FileProvider"
+73-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:47:13-62
+74            android:authorities="com.example.re_whatsapp.com.shekarmudaliyar.social_share"
+74-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:48:13-84
+75            android:exported="false"
+75-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:49:13-37
+76            android:grantUriPermissions="true" >
+76-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:50:13-47
+77            <meta-data
+77-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:52:13-54:53
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:53:17-67
+79                android:resource="@xml/filepaths" />
+79-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:54:17-50
+80        </provider>
+81        <provider
+81-->[:image_picker_android] E:\Coding\ReWhatsApp\re_whatsapp\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+82            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+82-->[:image_picker_android] E:\Coding\ReWhatsApp\re_whatsapp\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+83            android:authorities="com.example.re_whatsapp.flutter.image_provider"
+83-->[:image_picker_android] E:\Coding\ReWhatsApp\re_whatsapp\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+84            android:exported="false"
+84-->[:image_picker_android] E:\Coding\ReWhatsApp\re_whatsapp\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+85            android:grantUriPermissions="true" >
+85-->[:image_picker_android] E:\Coding\ReWhatsApp\re_whatsapp\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+86            <meta-data
+86-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:52:13-54:53
+87                android:name="android.support.FILE_PROVIDER_PATHS"
+87-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:53:17-67
+88                android:resource="@xml/flutter_image_picker_file_paths" />
+88-->E:\Coding\ReWhatsApp\re_whatsapp\android\app\src\main\AndroidManifest.xml:54:17-50
+89        </provider>
+90
+91        <activity
+91-->[:url_launcher_android] E:\Coding\ReWhatsApp\re_whatsapp\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+92            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+92-->[:url_launcher_android] E:\Coding\ReWhatsApp\re_whatsapp\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+93            android:exported="false"
+93-->[:url_launcher_android] E:\Coding\ReWhatsApp\re_whatsapp\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+94            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+94-->[:url_launcher_android] E:\Coding\ReWhatsApp\re_whatsapp\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+95
+96        <uses-library
+96-->[androidx.window:window:1.0.0-beta04] C:\Users\irxya\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+97            android:name="androidx.window.extensions"
+97-->[androidx.window:window:1.0.0-beta04] C:\Users\irxya\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+98            android:required="false" />
+98-->[androidx.window:window:1.0.0-beta04] C:\Users\irxya\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+99        <uses-library
+99-->[androidx.window:window:1.0.0-beta04] C:\Users\irxya\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+100            android:name="androidx.window.sidecar"
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\irxya\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+101            android:required="false" />
+101-->[androidx.window:window:1.0.0-beta04] C:\Users\irxya\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+102    </application>
+103
+104</manifest>

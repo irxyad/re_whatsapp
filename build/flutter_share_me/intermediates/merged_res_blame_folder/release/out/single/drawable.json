@@ -1,0 +1,274 @@
+[
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__btn_composer_tweet.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e8c34ca77821555804e43a10b52264a1\\transformed\\jetified-tweet-composer-3.1.1\\res\\drawable\\tw__btn_composer_tweet.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__video_pause_btn.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__video_pause_btn.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__player_overlay.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__player_overlay.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__call_to_action.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__call_to_action.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\18ccb7b028d76e71b90b6383128767ab\\transformed\\jetified-facebook-common-5.15.3\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\18ccb7b028d76e71b90b6383128767ab\\transformed\\jetified-facebook-common-5.15.3\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\com_facebook_favicon_blue.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\18ccb7b028d76e71b90b6383128767ab\\transformed\\jetified-facebook-common-5.15.3\\res\\drawable\\com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__login_btn_disabled.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\0090a7e560d1bb966d67181cd4b0ebca\\transformed\\jetified-twitter-core-3.1.1\\res\\drawable\\tw__login_btn_disabled.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\c0fd9abf6ffd322e561ab1d8a7823153\\transformed\\jetified-facebook-share-5.15.3\\res\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__login_btn_pressed.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\0090a7e560d1bb966d67181cd4b0ebca\\transformed\\jetified-twitter-core-3.1.1\\res\\drawable\\tw__login_btn_pressed.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__like_action.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__like_action.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\acbce933e4b464a5224ed377a62db1f5\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__seekbar_thumb.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__seekbar_thumb.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__video_play_btn.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__video_play_btn.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__share_action.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__share_action.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__vine_badge.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__vine_badge.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__bg_media_badge.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__bg_media_badge.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__login_btn_default.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\0090a7e560d1bb966d67181cd4b0ebca\\transformed\\jetified-twitter-core-3.1.1\\res\\drawable\\tw__login_btn_default.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\c0fd9abf6ffd322e561ab1d8a7823153\\transformed\\jetified-facebook-share-5.15.3\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__login_btn.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\0090a7e560d1bb966d67181cd4b0ebca\\transformed\\jetified-twitter-core-3.1.1\\res\\drawable\\tw__login_btn.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\acbce933e4b464a5224ed377a62db1f5\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\acbce933e4b464a5224ed377a62db1f5\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\18ccb7b028d76e71b90b6383128767ab\\transformed\\jetified-facebook-common-5.15.3\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__video_replay_btn.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__video_replay_btn.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\acbce933e4b464a5224ed377a62db1f5\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\com_facebook_button_icon.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\18ccb7b028d76e71b90b6383128767ab\\transformed\\jetified-facebook-common-5.15.3\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__gif_badge.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__gif_badge.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__quote_tweet_border.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__quote_tweet_border.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\tw__video_seekbar.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\6e2233bf079449a76bfb03d3b13e9827\\transformed\\jetified-tweet-ui-3.1.1\\res\\drawable\\tw__video_seekbar.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\18ccb7b028d76e71b90b6383128767ab\\transformed\\jetified-facebook-common-5.15.3\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\e0f3681119c9d3eda0253a1be73965ba\\transformed\\appcompat-1.0.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Coding\\ReWhatsApp\\re_whatsapp\\build\\flutter_share_me\\intermediates\\merged_res\\release\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "C:\\Users\\irxya\\.gradle\\caches\\transforms-3\\18ccb7b028d76e71b90b6383128767ab\\transformed\\jetified-facebook-common-5.15.3\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    }
+]
