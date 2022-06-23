@@ -3,8 +3,8 @@ import 'package:flutter_contacts/flutter_contacts.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
-import '../material/colors/mycolors.dart';
-import '../widgets/list_contacts.dart';
+import '../../material/colors/mycolors.dart';
+import 'components/list_contacts.dart';
 
 class Contacts extends StatefulWidget {
   //routes
@@ -44,10 +44,8 @@ class _ContactsState extends State<Contacts> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+        backgroundColor: Colors.white,
+        body: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           //Apbar Custom
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 40),
@@ -83,69 +81,39 @@ class _ContactsState extends State<Contacts> {
                   ],
                 ),
                 const SizedBox(
-                  height: 40,
+                  height: 30,
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    GestureDetector(
-                      onTap: () {
-                        addContacts();
-                      },
-                      child: Column(
-                        children: [
-                          SizedBox(
-                            height: 100,
-                            width: 100,
-                            child: CircleAvatar(
-                              backgroundColor: MyColor.greenWhatsApp,
-                              child: LottieBuilder.asset(
-                                'assets/icons/contact.json',
-
-                                // height: 120,
-                                // width: 120,
-                              ),
-                            ),
-                          ),
-                          const SizedBox(
-                            height: 10,
-                          ),
-                          const Text(
-                            'Add Contact',
-                            style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 18,
-                                fontFamily: 'HelveticaBold'),
-                          ),
-                        ],
-                      ),
-                    ),
-                    const SizedBox(
-                      width: 50,
-                    ),
-                    Column(
+                Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  GestureDetector(
+                    onTap: () {
+                      addContacts();
+                    },
+                    child: Column(
                       children: [
-                        SizedBox(
-                          height: 100,
-                          width: 100,
-                          child: CircleAvatar(
-                            backgroundColor: MyColor.greenWhatsApp,
-                            child: Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: LottieBuilder.asset(
-                                'assets/icons/group.json',
-
-                                // height: 120,
-                                // width: 120,
+                        Stack(
+                          alignment: Alignment.center,
+                          children: [
+                            SizedBox(
+                              height: 70,
+                              width: 70,
+                              child: CircleAvatar(
+                                backgroundColor: MyColor.greenWhatsApp,
                               ),
                             ),
-                          ),
+                            LottieBuilder.asset(
+                                frameRate: FrameRate(60),
+                                animate: true,
+                                repeat: true,
+                                'assets/icons/contact.json',
+                                height: 100,
+                                width: 100),
+                          ],
                         ),
                         const SizedBox(
-                          height: 10,
+                          height: 0,
                         ),
                         const Text(
-                          'Group Call',
+                          'Add Contact',
                           style: TextStyle(
                               color: Colors.black,
                               fontSize: 18,
@@ -153,8 +121,44 @@ class _ContactsState extends State<Contacts> {
                         ),
                       ],
                     ),
-                  ],
-                ),
+                  ),
+                  const SizedBox(
+                    width: 50,
+                  ),
+                  Column(
+                    children: [
+                      Stack(
+                        alignment: Alignment.center,
+                        children: [
+                          SizedBox(
+                            height: 70,
+                            width: 70,
+                            child: CircleAvatar(
+                              backgroundColor: MyColor.greenWhatsApp,
+                            ),
+                          ),
+                          LottieBuilder.asset(
+                              frameRate: FrameRate(60),
+                              animate: true,
+                              repeat: true,
+                              'assets/icons/group.json',
+                              height: 100,
+                              width: 100),
+                        ],
+                      ),
+                      const SizedBox(
+                        height: 0,
+                      ),
+                      const Text(
+                        'Group Call',
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 18,
+                            fontFamily: 'HelveticaBold'),
+                      ),
+                    ],
+                  ),
+                ]),
               ],
             ),
           ),
@@ -227,8 +231,6 @@ class _ContactsState extends State<Contacts> {
                       )),
                     ],
                   ))),
-        ],
-      ),
-    );
+        ]));
   }
 }

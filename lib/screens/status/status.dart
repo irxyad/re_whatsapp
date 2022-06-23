@@ -9,11 +9,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:re_whatsapp/widgets/profile_pic.dart';
+import 'package:re_whatsapp/screens/status/components/profile_pic.dart';
 import 'package:social_share/social_share.dart';
-import '../material/colors/mycolors.dart';
-import '../widgets/app_bar.dart';
-import '../widgets/users_story.dart';
+import '../../material/colors/mycolors.dart';
+import '../../widgets/app_bar.dart';
+import 'components/users_story.dart';
 
 class Status extends StatefulWidget {
   //routes
@@ -344,10 +344,8 @@ class _StatusState extends State<Status> {
   story({required String caption}) {
     //Backgground
     return GestureDetector(
-      onHorizontalDragStart: (_) {
-        Navigator.pop(context);
-      },
-      onVerticalDragEnd: (DragEndDetails dragEndDetails) {
+      onHorizontalDragStart: (_) {},
+      onVerticalDragStart: (_) {
         showModalBottomSheet(
             useRootNavigator: true,
             clipBehavior: Clip.antiAlias,
@@ -363,7 +361,7 @@ class _StatusState extends State<Status> {
                   filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(.5),
+                      color: Colors.black.withOpacity(.5),
                       borderRadius: const BorderRadius.only(
                           topLeft: Radius.circular(30),
                           topRight: Radius.circular(30)),
@@ -378,33 +376,47 @@ class _StatusState extends State<Status> {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               IconButton(
-                                  onPressed: () {},
-                                  icon: const Icon(
-                                      Icons.remove_red_eye_outlined)),
+                                onPressed: () {},
+                                icon: const Icon(Icons.remove_red_eye_outlined),
+                                color: Colors.white,
+                              ),
                               Text(
                                 'Viewed by : $lihat',
-                                style: const TextStyle(fontSize: 14),
+                                style: const TextStyle(
+                                  fontSize: 14,
+                                  color: Colors.white,
+                                ),
                               ),
                               const Spacer(),
                               Row(
                                 children: [
                                   IconButton(
-                                      onPressed: () {},
-                                      icon: const Icon(Icons.message_outlined)),
+                                    onPressed: () {},
+                                    icon: const Icon(Icons.message_outlined),
+                                    color: Colors.white,
+                                  ),
                                   const Text(
                                     '3',
-                                    style: TextStyle(fontSize: 14),
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      color: Colors.white,
+                                    ),
                                   ),
                                 ],
                               ),
                               Row(
                                 children: [
                                   IconButton(
-                                      onPressed: () {},
-                                      icon: const Icon(Icons.share_outlined)),
+                                    onPressed: () {},
+                                    icon: const Icon(Icons.share_outlined),
+                                    color: Colors.white,
+                                  ),
                                   const Text(
                                     '5',
-                                    style: TextStyle(fontSize: 14),
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      color: Colors.white,
+                                    ),
                                   ),
                                 ],
                               ),
@@ -448,13 +460,17 @@ class _StatusState extends State<Status> {
                                           children: [
                                             Text(
                                               name,
-                                              style:
-                                                  const TextStyle(fontSize: 16),
+                                              style: const TextStyle(
+                                                fontSize: 16,
+                                                color: Colors.white,
+                                              ),
                                             ),
                                             Text(
                                               'Last seen $viewed yang lalu',
-                                              style:
-                                                  const TextStyle(fontSize: 12),
+                                              style: const TextStyle(
+                                                fontSize: 12,
+                                                color: Colors.white,
+                                              ),
                                             ),
                                           ],
                                         ),
@@ -480,33 +496,31 @@ class _StatusState extends State<Status> {
             child: Center(
               child: Stack(children: [
                 //Image Story
-                // buildImage(bytes),
-                // Image.file(
-                //   images!,
-                //   height: double.infinity,
-                //   width: double.infinity,
-                //   fit: BoxFit.cover,
-                // ),
-                // ClipRRect(
-                //   child: BackdropFilter(
-                //     filter: ImageFilter.blur(sigmaX: 15, sigmaY: 15),
-                //     child: Container(
-                //       color: Colors.black.withOpacity(.3),
-                //       height: Get.height,
-                //       width: Get.width,
-                //     ),
-                //   ),
-                // ),
-                //Image Story
                 Image.file(
                   images!,
-                  height: double.infinity,
-                  width: double.infinity,
-                  fit: BoxFit.contain,
+                  fit: BoxFit.cover,
+                  height: Get.height,
+                  width: Get.width,
                   filterQuality: FilterQuality.high,
                   isAntiAlias: true,
                   // scale: 8,
                 ),
+                BackdropFilter(
+                  filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                  child: Container(
+                    color: Colors.black.withOpacity(.3),
+                  ),
+                ),
+                Center(
+                  child: Image.file(
+                    images!,
+                    fit: BoxFit.contain,
+                    filterQuality: FilterQuality.high,
+                    isAntiAlias: true,
+                    // scale: 8,
+                  ),
+                ),
+
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -521,9 +535,8 @@ class _StatusState extends State<Status> {
                             padding:
                                 const EdgeInsets.symmetric(horizontal: 13.0),
                             height: 60,
-                            width: Get.width / 2,
                             decoration: BoxDecoration(
-                                color: Colors.white.withOpacity(.5),
+                                color: Colors.black.withOpacity(.5),
                                 borderRadius: const BorderRadius.only(
                                     topRight: Radius.circular(100),
                                     bottomRight: Radius.circular(100))),
@@ -542,18 +555,18 @@ class _StatusState extends State<Status> {
                                     const Text(
                                       'My Status',
                                       style: TextStyle(
-                                          color: Colors.black,
-                                          fontSize: 18,
+                                          color: Colors.white,
+                                          fontSize: 16,
                                           fontFamily: 'HelveticaBold'),
                                     ),
                                     const SizedBox(
                                       height: 5,
                                     ),
                                     Text(
-                                      'Hari ini,$jam',
+                                      'Hari ini, $jam',
                                       style: const TextStyle(
-                                          color: Colors.black,
-                                          fontSize: 16,
+                                          color: Colors.white,
+                                          fontSize: 14,
                                           fontFamily: 'Helvetica'),
                                     ),
                                   ],
@@ -599,7 +612,7 @@ class _StatusState extends State<Status> {
             child: Container(
               alignment: Alignment.center,
               padding: const EdgeInsets.symmetric(horizontal: 13.0),
-              height: 40,
+              height: 35,
               width: Get.width,
               decoration: BoxDecoration(
                 color: Colors.black.withOpacity(.5),
@@ -696,11 +709,10 @@ class _StatusState extends State<Status> {
           child: BackdropFilter(
             filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
             child: Container(
-                padding: const EdgeInsets.all(7.0),
-                height: 35,
-                width: 35,
+                padding:
+                    const EdgeInsets.symmetric(vertical: 7.0, horizontal: 10.0),
                 decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(.5),
+                    color: Colors.black.withOpacity(.5),
                     borderRadius: const BorderRadius.only(
                         topLeft: Radius.circular(35),
                         bottomLeft: Radius.circular(35))),

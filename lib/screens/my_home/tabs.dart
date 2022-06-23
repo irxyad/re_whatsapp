@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:re_whatsapp/material/colors/mycolors.dart';
-
 import 'my_tabs/chats_tab.dart';
 import 'my_tabs/group_tab.dart';
 
@@ -41,7 +40,7 @@ class MyTab extends StatelessWidget {
               unselectedLabelColor: MyColor.greyText,
               automaticIndicatorColorAdjustment: false,
               indicatorColor: Colors.transparent,
-              padding: EdgeInsets.symmetric(horizontal: 85),
+              padding: EdgeInsets.symmetric(horizontal: 80),
             ),
           ),
           body: Padding(

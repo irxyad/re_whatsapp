@@ -1,11 +1,13 @@
 import 'package:flutter/widgets.dart';
 import 'package:re_whatsapp/navigation_bar.dart';
-import 'package:re_whatsapp/views/calls.dart';
-import 'package:re_whatsapp/views/my_home.dart';
-import 'package:re_whatsapp/views/settings.dart';
-import 'package:re_whatsapp/views/status.dart';
+import 'package:re_whatsapp/screens/calls/calls.dart';
+import 'package:re_whatsapp/screens/my_home/my_home.dart';
+import 'package:re_whatsapp/screens/settings/settings.dart';
+import 'package:re_whatsapp/screens/status/status.dart';
 
-final Map<String, WidgetBuilder> routes = {
+import '../screens/calls/calls.dart';
+
+final Map<String, WidgetBuilder> appRoutes = {
   MyHome.routeName: (context) => const MyHome(),
   Status.routeName: (context) => const Status(),
   Calls.routeName: (context) => const Calls(),

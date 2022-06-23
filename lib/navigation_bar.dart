@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:re_whatsapp/material/colors/mycolors.dart';
-import 'package:re_whatsapp/views/calls.dart';
-import 'package:re_whatsapp/views/contacts.dart';
-import 'package:re_whatsapp/views/my_home.dart';
-import 'package:re_whatsapp/views/settings.dart';
-import 'package:re_whatsapp/views/status.dart';
+import 'package:re_whatsapp/screens/calls/calls.dart';
+import 'package:re_whatsapp/screens/contacts/contacts.dart';
+import 'package:re_whatsapp/screens/my_home/my_home.dart';
+import 'package:re_whatsapp/screens/settings/settings.dart';
+import 'package:re_whatsapp/screens/status/status.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:whatsapp_unilink/whatsapp_unilink.dart';
 import 'controller/navbar_controller.dart';
@@ -36,53 +36,84 @@ class _NavigationPageState extends State<NavigationPage> {
     _pesan.clear();
 
     showModalBottomSheet(
-        constraints: BoxConstraints(minHeight: Get.height / 2),
+        // constraints: const BoxConstraints.expand(),
+        isScrollControlled: false,
         backgroundColor: MyColor.greenWhatsApp,
         context: context,
         builder: (context) {
           return Padding(
-            padding: const EdgeInsets.symmetric(
-              horizontal: 28.0,
-              vertical: 30,
-            ),
-            child: TextField(
-              scrollPhysics: const BouncingScrollPhysics(),
-              style: const TextStyle(
-                  fontFamily: 'Helvetica', fontSize: 16, color: Colors.white),
-              toolbarOptions: const ToolbarOptions(
-                  copy: true, cut: true, paste: true, selectAll: true),
-              autofocus: false,
-              textInputAction: TextInputAction.newline,
-              onEditingComplete: () {
-                final link = WhatsAppUnilink(
-                  text: _pesan.text,
-                );
-                launchUrl(Uri.parse('$link'));
-              },
-              cursorColor: Colors.white,
-              maxLines: null,
-              minLines: null,
-              scrollController: ScrollController(keepScrollOffset: true),
-              expands: false,
-              decoration: InputDecoration(
-                constraints: BoxConstraints.tight(Size.infinite),
-                alignLabelWithHint: true,
-                labelText: 'Masukkan Pesan',
-                labelStyle: TextStyle(color: Colors.white.withOpacity(.2)),
-                floatingLabelStyle: const TextStyle(color: Colors.white),
-                focusedBorder: const OutlineInputBorder(
-                  borderRadius: BorderRadius.all(Radius.circular(14)),
-                  borderSide: BorderSide(width: 2, color: Colors.white),
+            padding: EdgeInsets.only(
+                top: 30,
+                left: 15,
+                right: 0,
+                bottom: MediaQuery.of(context).viewInsets.bottom + 15),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Expanded(
+                  // flex: 2,
+                  child: SingleChildScrollView(
+                    child: TextField(
+                      style: const TextStyle(
+                          fontFamily: 'Helvetica',
+                          fontSize: 16,
+                          color: Colors.white),
+                      toolbarOptions: const ToolbarOptions(
+                          copy: true, cut: true, paste: true, selectAll: true),
+                      autofocus: false,
+                      textInputAction: TextInputAction.newline,
+                      onEditingComplete: () {
+                        Navigator.canPop(context);
+                      },
+                      cursorColor: Colors.white,
+                      maxLines: null,
+                      minLines: null,
+                      scrollController:
+                          ScrollController(keepScrollOffset: true),
+                      expands: false,
+                      decoration: InputDecoration(
+                        // constraints: BoxConstraints(maxWidth: double.infinity),
+                        alignLabelWithHint: true,
+                        labelText: 'Masukkan Pesan',
+                        labelStyle:
+                            TextStyle(color: Colors.white.withOpacity(.2)),
+                        floatingLabelStyle:
+                            const TextStyle(color: Colors.white),
+                        focusedBorder: const OutlineInputBorder(
+                          borderRadius: BorderRadius.all(Radius.circular(14)),
+                          borderSide: BorderSide(width: 2, color: Colors.white),
+                        ),
+                        enabledBorder: const OutlineInputBorder(
+                          borderRadius: BorderRadius.all(Radius.circular(14)),
+                          borderSide: BorderSide(width: 1, color: Colors.grey),
+                        ),
+                      ),
+                      controller: _pesan,
+                      keyboardType: TextInputType.multiline,
+                      cursorHeight: 20,
+                      textAlign: TextAlign.start,
+                      // scrollPadding: EdgeInsets.only(bottom: 40),
+                    ),
+                  ),
                 ),
-                enabledBorder: const OutlineInputBorder(
-                  borderRadius: BorderRadius.all(Radius.circular(14)),
-                  borderSide: BorderSide(width: 1, color: Colors.grey),
-                ),
-              ),
-              controller: _pesan,
-              keyboardType: TextInputType.multiline,
-              cursorHeight: 20,
-              textAlign: TextAlign.start,
+                IconButton(
+                    // disabledColor: Colors.red,
+                    splashColor: const Color.fromARGB(255, 6, 75, 67),
+                    splashRadius: 20,
+                    highlightColor: Colors.transparent,
+                    alignment: Alignment.center,
+                    color: Colors.white,
+                    onPressed: () {
+                      final link = WhatsAppUnilink(
+                        text: _pesan.text,
+                      );
+                      launchUrl(Uri.parse('$link'));
+                    },
+                    icon: const Icon(
+                      Icons.send_rounded,
+                      size: 20,
+                    )),
+              ],
             ),
           );
         });

@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:re_whatsapp/tabs.dart';
-import '../widgets/app_bar.dart';
+import 'package:re_whatsapp/screens/my_home/tabs.dart';
+import '../../widgets/app_bar.dart';
 
 class MyHome extends StatelessWidget {
   static String routeName = '/myhome';

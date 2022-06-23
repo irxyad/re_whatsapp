@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:re_whatsapp/routes.dart';
+import 'package:re_whatsapp/utils/routes_utils.dart';
 
 import 'material/colors/mycolors.dart';
 import 'navigation_bar.dart';
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Redesign WhatsApp',
       initialRoute: NavigationPage.routeName,
-      routes: routes,
+      routes: appRoutes,
       theme: ThemeData(
         backgroundColor: MyColor.greyBG,
         bottomAppBarColor: MyColor.greenWhatsApp,

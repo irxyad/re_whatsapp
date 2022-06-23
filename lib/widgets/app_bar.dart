@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 import '../material/colors/mycolors.dart';
-import '../searching.dart';
+import 'searching.dart';
 
 class MyAppBar extends StatelessWidget {
   const MyAppBar({
